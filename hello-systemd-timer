@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "hello-systemd-timer " `date` >> /root/hello-systemd-timer
+

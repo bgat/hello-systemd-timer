@@ -1,0 +1,13 @@
+[Unit]
+Description=A "timer" example
+Documentation=http://www.freedesktop.org/software/systemd/man/systemd.timer.html
+
+[Timer]
+WakeSystem=0
+OnBootSec=30s
+OnUnitActiveSec=120s
+AccuracySec=10s
+#Unit=hello-systemd-timer.service
+
+[Install]
+WantedBy=multi-user.target

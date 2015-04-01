@@ -1,0 +1,4 @@
+hello-systemd-timer /usr/sbin/
+hello-systemd-timer.timer /lib/systemd/system/
+hello-systemd-timer.service /lib/systemd/system/
+

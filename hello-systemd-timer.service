@@ -1,0 +1,11 @@
+[Unit]
+Description=A "timer unit service" example
+Documentation=http://www.freedesktop.org/software/systemd/man/systemd.timer.html
+
+[Service]
+Type=service
+ExecStart=/usr/sbin/hello-systemd-timer
+Restart=no
+
+[Install]
+WantedBy=multi-user.target
