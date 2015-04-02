@@ -1,3 +1,2 @@
 ../hello-systemd-timer.timer /lib/systemd/system/multi-user.target.wants/hello-systemd-timer.timer
-../hello-systemd-timer.service /lib/systemd/system/multi-user.target.wants/hello-systemd-timer.service
 
